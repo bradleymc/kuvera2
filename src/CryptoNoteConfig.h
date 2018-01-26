@@ -105,7 +105,7 @@ const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexes.bin
 const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstate.bin";
 const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001e4f98abd9901029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101ba1249d79b4f2225679b1eb6545324ad9c4777925db9193e942896ad76d93040";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001e4f98abd9901029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121015ac3ef3f02f0492ca0a5ad557c31fa257c1367ff018e92b15599b64809f6d227";
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "kuvera";
