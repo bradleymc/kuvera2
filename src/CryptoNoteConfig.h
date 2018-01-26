@@ -41,7 +41,7 @@ const uint32_t MIXIN_START_HEIGHT                          = 0;
 const uint32_t MANDATORY_TRANSACTION                          = 0;
 const uint32_t KILL_HEIGHT                          = 0;
 const uint64_t TAIL_EMISSION_REWARD                          = 0;
-const size_t CRYPTONOTE_COIN_VERSION                          = 2.1.2;
+const size_t CRYPTONOTE_COIN_VERSION                          = 2;
 const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                 = 0;
 const size_t ZAWY_DIFFICULTY_V2                          = 0;
 const uint8_t ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION   = 0;
@@ -105,7 +105,7 @@ const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexes.bin
 const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstate.bin";
 const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001e4f98abd9901029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101ba1249d79b4f2225679b1eb6545324ad9c4777925db9193e942896ad76d93040";
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "kuvera";
