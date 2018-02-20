@@ -42,7 +42,7 @@ const uint32_t MANDATORY_TRANSACTION                          = 0;
 const uint32_t KILL_HEIGHT                          = 0;
 const uint64_t TAIL_EMISSION_REWARD                          = 0;
 const size_t CRYPTONOTE_COIN_VERSION                          = 2;
-const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                 = 0;
+const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                 = 30;
 const size_t ZAWY_DIFFICULTY_V2                          = 0;
 const uint8_t ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION   = 0;
 const uint32_t BUGGED_ZAWY_DIFFICULTY_BLOCK_INDEX                 = 0;
@@ -105,7 +105,7 @@ const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexes.bin
 const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstate.bin";
 const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001e4f98abd9901029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121015ac3ef3f02f0492ca0a5ad557c31fa257c1367ff018e92b15599b64809f6d227";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001e4f98abd9901029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121018985686fc7c1055642880a79ef3c6d6f88038103244cbc74c8d0e30d7371c3ef";
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "kuvera";
@@ -141,7 +141,7 @@ const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT                    = 60 * 2 * 1000; //
 const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          // 5 seconds
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "7934CF79E090C71AAC01468AE50E78F30789FF085724F1D047ED031131051832";
 
-const char* const SEED_NODES[] = { "18.219.29.129:19666", "18.218.239.139:19666" };
+const char* const SEED_NODES[] = { "18.219.213.244:19666", "18.219.53.158:19666" };
 
 
 struct CheckpointData {
@@ -149,9 +149,7 @@ struct CheckpointData {
   const char* blockId;
 };
 
-const std::initializer_list<CheckpointData> CHECKPOINTS = {
- // {79000,  "cae33204e624faeb64938d80073bb7bbacc27017dc63f36c5c0f313cad455a02"}
-};
+const std::initializer_list<CheckpointData> CHECKPOINTS = { };
 } // CryptoNote
 
 #define ALLOW_DEBUG_COMMANDS
